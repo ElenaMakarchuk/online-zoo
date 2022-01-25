@@ -1,0 +1,2988 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* start SIDE BAR*/
+.aside__main {
+  position: relative;
+}
+.aside__container {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.aside__height {
+  position: absolute;
+  height: 100%;
+}
+
+.side__bar {
+  width: 90px;
+  height: 760px;
+  border: 2px solid #f0f0f0;
+  position: sticky;
+  top: 25px;
+}
+
+.side__logo {
+  margin-top: 25px;
+  margin-left: 18.85px;
+  margin-right: 19.28px;
+}
+
+.side__bar__nav {
+  margin-top: 275px;
+  height: 320px;
+  display: grid;
+  grid-template-columns: 90px;
+  grid-template-rows: 172px 48px;
+  gap: 100px;
+  text-align: center;
+}
+
+.side__list {
+  margin: 0 auto;
+  padding: 0;
+  height: 172px;
+  display: grid;
+  grid-template-rows: 73px 74px 25px;
+}
+
+.side__item {
+  list-style-type: none;
+}
+
+.sosial:hover {
+  opacity: 0.8;
+}
+
+.go:hover {
+  background-color: #bcbcbc;
+  border-radius: 100%;
+}
+/* end SIDE BAR*/
+
+/* start HEADER*/
+.h1 {
+  margin: 0;
+  font-size: 0;
+}
+
+.header {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.header__block {
+  height: 90px;
+  border: 2px solid #f0f0f0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burger__menu {
+  display: none;
+}
+
+.general__logo {
+  margin-left: 18.85px;
+  margin-top: 9px;
+}
+
+.header__list {
+  width: 800px;
+  height: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 90px;
+  padding-left: 0px;
+}
+
+.header__item {
+  list-style-type: none;
+}
+
+.header__item__active {
+  font-weight: 500;
+}
+
+.header__item:active {
+  font-weight: 500;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 154%;
+  color: #080029;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  font-weight: 500;
+}
+
+.head__profile {
+  margin-left: 642px;
+  margin-right: 92px;
+}
+
+/* end HEADER*/
+
+/* start Watch your favorite animal online*/
+.watch__animal__online {
+  padding-top: 55px;
+  padding-bottom: 27px;
+}
+
+.watch__animal__container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-left: 184px;
+}
+
+.watch__animal__block {
+  display: grid;
+  grid-template-rows: 670px;
+  grid-template-columns: 697px 696px;
+  gap: 39px;
+}
+
+.watch__animal__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #626262;
+  margin-top: 77px;
+  margin-bottom: 25px;
+}
+
+.watch__animal__title {
+  font-family: "Merriweather", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 106px;
+  color: #080029;
+  margin: 0px 0px 80px 0px;
+}
+
+.letter__block {
+  display: inline-grid;
+  margin: 0px -20px 0px -20px;
+}
+
+.dot {
+  margin-top: -162px;
+  color: red;
+  margin-left: 2px;
+}
+
+.btn__choose {
+  padding: 20px 75px;
+  background: #0f0049;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.btn__choose:hover {
+  background: #080029;
+}
+
+.btn__choose:active {
+  background: #150068;
+}
+
+.btn__watch {
+  padding: 18px 73px;
+  border-radius: 5px;
+  border: 2px solid #0f0049;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #080029;
+  margin-left: 62px;
+}
+
+.btn__watch:hover {
+  border: 2px solid #080029;
+}
+
+.btn__watch:active {
+  border: 2px solid #609fff;
+}
+
+.watch__online__illustration {
+  background: url(./assets/images/acircleblue-Db0eeR5mi3U-unsplash\ 1.jpg);
+  overflow: hidden;
+  border-radius: 5px;
+}
+/* end Watch your favorite animal online*/
+
+/* start How zoo online works*/
+.how__works {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.how__works__container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-left: 184px;
+}
+
+.how__works__block {
+  display: grid;
+  grid-template-rows: 760px;
+  grid-template-columns: 696px 696px;
+  gap: 39px;
+}
+
+.how__zoo__illustration {
+  background: url(./assets/images/kurt-cotoaga-huXZH43-qiw-unsplash\ 1.jpg)
+    no-repeat;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.how__zoo__text {
+  margin-top: 139px;
+}
+
+.how__zoo__title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #0b0b0b;
+  margin: 0;
+}
+
+.how__zoo__main__text {
+  font-family: "Merriweather", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 145%;
+  color: #080029;
+  margin: 50px 0px 40px 0px;
+}
+
+.how__zoo__secondary__text {
+  font-size: 18px;
+  line-height: 154%;
+  color: #747474;
+  margin: 0px 0px 80px 0px;
+}
+
+.btn__try {
+  padding: 20px 75px;
+  background: #0f0049;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.btn__try:hover {
+  background: #080029;
+}
+
+.btn__try:active {
+  background: #150068;
+}
+
+/* end How zoo online works*/
+
+/* start Famous pets*/
+.famous__pets {
+  background: #d9e8ff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.famous__pets__container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-left: 184px;
+}
+
+.famous__pets__block {
+  display: grid;
+  grid-template-rows: 696px;
+  grid-template-columns: 325px 1800px;
+  gap: 43px;
+}
+
+.famous__title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #0b0b0b;
+  margin-top: 217px;
+  margin-bottom: 0px;
+}
+
+.famous__text {
+  font-family: "Merriweather", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 145%;
+  color: #080029;
+  width: 325px;
+  margin: 50px 43px 80px 0px;
+}
+
+.famous__vector__right {
+  margin: 0px 20px 0px 0px;
+}
+
+.famous__block__card {
+  max-width: 1800px;
+  display: grid;
+  grid-template-rows: repeat(1, 696px);
+  grid-template-columns: repeat(4, 328px);
+  gap: 40px;
+}
+
+.block {
+  animation: 0.5s ease-in-out;
+  display: none;
+}
+
+.active,
+.next {
+  display: block;
+}
+
+.element {
+  display: grid;
+  grid-template-rows: repeat(2, 328px);
+  gap: 40px;
+}
+
+.to-left {
+  animation-name: left;
+}
+
+.from-right {
+  animation-name: right;
+}
+
+.to-right {
+  animation-name: right;
+  animation-direction: reverse;
+}
+
+.from-left {
+  animation-name: left;
+  animation-direction: reverse;
+}
+
+@keyframes left {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes right {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.famous__item__container {
+  position: relative;
+  top: 163px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.famous__card__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 76px;
+  height: 76px;
+  opacity: 0.6;
+  border: 2px solid #fcfcfc;
+  border-radius: 50%;
+  margin-bottom: 43px;
+  transition: 0.1s;
+}
+
+.famous__card__plus {
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 145%;
+  text-align: center;
+  color: #fcfcfc;
+  opacity: 0.8;
+}
+
+.famous__card__description {
+  display: none;
+  max-width: 189px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.famous__card__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #fcfcfc;
+  opacity: 0.8;
+}
+
+.famous__card__follow {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.famous__card__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.blok__item:hover .famous__card__circle {
+  width: 238px;
+  height: 238px;
+  margin-top: -150px;
+  border: 2px solid rgba(252, 252, 252, 0.3);
+  color: #fff;
+}
+
+.blok__item:hover .famous__card__title,
+.blok__item:hover .famous__card__plus {
+  display: none;
+}
+
+.blok__item:hover .famous__card__description,
+.blok__item:hover .famous__card__follow {
+  display: contents;
+}
+
+.famous__vector {
+  color: #fcfcfc;
+  width: 65px;
+  height: 65px;
+  padding: 26px 18px 21px 17px;
+  border-radius: 50%;
+  background: #0f0049;
+  border: none;
+}
+
+.famous__vector:hover {
+  background-color: #080029;
+}
+
+.famous__vector:active {
+  background: #150068;
+}
+
+.item__1 {
+  background: url(./assets/images/famous_little_panda.jpg);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.item__2 {
+  background: url(./assets/images/famous_penguin.jpg);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.item__3 {
+  background: url(./assets/images/famous_squirrel.jpg);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.item__4 {
+  background: url(./assets/images/famous_panda.jpg);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.item__5 {
+  background: url(./assets/images/famous_eagle.jpg);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.item__6 {
+  background: url(./assets/images/famous_gorilla.jpg);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.item__7 {
+  background: url(./assets/images/famous_tiger.png);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.item__8 {
+  background: url(./assets/images/famous_krock.jpg);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+/* end Famous pets*/
+
+/* start Pay and feed*/
+.pay__feed {
+  background-color: #fcfcfc;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pay__feed__container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-left: 184px;
+}
+
+.pay__main__title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #0b0b0b;
+  margin: 0px 0px 0px 184px;
+}
+
+.pay__title {
+  font-family: "Merriweather", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 145%;
+  color: #0f0049;
+  margin: 0;
+}
+
+.pay__text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  color: #747474;
+  margin: 0;
+}
+
+.pay__block {
+  display: flex;
+}
+
+.illustration__one {
+  margin-top: 82px;
+  margin-left: 200px;
+}
+
+.first__block {
+  width: 456px;
+  margin-top: 84px;
+  margin-left: 73px;
+}
+
+.first__title {
+  margin-bottom: 30px;
+}
+
+.illustration__first__vector {
+  margin-top: -14px;
+  margin-left: 660px;
+}
+
+.illustration__second__vector {
+  margin-top: 155px;
+  margin-left: 470px;
+}
+
+.illustration__two {
+  margin-top: 10px;
+  margin-left: 22px;
+}
+
+.second__block {
+  width: 456px;
+  margin-top: 117px;
+  margin-left: 59px;
+  margin-right: -59px;
+}
+
+.second__title {
+  margin-bottom: 30px;
+}
+
+.illustration__three {
+  margin-top: 17px;
+  margin-left: 0px;
+}
+
+.third__block {
+  width: 456px;
+  margin-top: 59px;
+  margin-left: 56px;
+}
+
+.third__title {
+  margin-bottom: 30px;
+}
+/* end Pay and feed*/
+
+/* start Testimonials*/
+.testimonials {
+  background: #080029;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.testimonials__container {
+  max-width: 1800px;
+  padding-left: 184px;
+  margin: 0 auto;
+}
+
+.testimonials__block {
+  height: 416px;
+  display: grid;
+  grid-template-rows: 416px;
+  grid-template-columns: 513px 1064px;
+  gap: 40px;
+}
+
+.test__title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #fcfcfc;
+  margin: 0;
+}
+
+.test__subtitle {
+  font-family: "Merriweather", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 145%;
+  color: #fcfcfc;
+  margin: 62px 0px 40px 0px;
+}
+
+.test__text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  color: #fcfcfc;
+  margin: 0px 0px 80px 0px;
+}
+
+.btn__feedback {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #fcfcfc;
+  padding: 18px 73px;
+  border: 2px solid #fcfcfc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-decoration: none;
+  background: #0f0049;
+}
+
+.btn__feedback:hover {
+  background: #080029;
+}
+
+.btn__feedback:active {
+  background: #150068;
+}
+
+.btn__more {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.see__more {
+  margin-top: 2px;
+}
+
+.text__review {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  color: #181818;
+  margin: 0px 40px 73px 40px;
+}
+
+.name__review {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 135%;
+  color: #0b0b0b;
+  margin: 47px 226px 37px 0px;
+}
+
+.review {
+  display: grid;
+  grid-template-rows: 273px;
+  grid-template-columns: 512px 512px;
+  gap: 40px;
+  margin: 20px 60px 30px 0px;
+}
+
+.review__block {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fcfcfc;
+  border-radius: 15px;
+}
+
+.ava {
+  margin: 40px 19px 30px 40px;
+}
+
+.see__more__btn {
+  margin-top: 56px;
+}
+
+.see__more__left,
+.see__more__right {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  padding: 26px 18px 21px 17px;
+  background: #fcfcfc;
+}
+
+.see__more__right {
+  margin-left: 20px;
+}
+
+.see__more__left:hover,
+.see__more__right:hover {
+  background-color: #150068;
+}
+
+.see__more__left:active,
+.see__more__right:active {
+  background-color: #3888ff;
+}
+
+/* end Testimonials*/
+
+/* start Zoogeography*/
+.zoogeography {
+  padding-top: 50px;
+  padding-bottom: 103px;
+}
+
+.zoogeography__container {
+  max-width: 1800px;
+  padding-left: 184px;
+  margin: 0 auto;
+}
+
+.zoogeography__block {
+  height: 700px;
+  display: grid;
+  grid-template-columns: 344px 1223px;
+  gap: 20px;
+}
+
+.side__hidden {
+  display: none;
+}
+
+.geo__card {
+  overflow: hidden;
+  background: #fcfcfc;
+  box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+  width: 344px;
+  height: 512px;
+  margin: 50px 0px 0px 0px;
+}
+
+.geo__title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #000000;
+  margin: 50px 0px 62px 0px;
+}
+
+.geo__card__title {
+  font-family: "Merriweather", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 145%;
+  color: #080029;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.geo__card__text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  text-align: center;
+  color: #747474;
+  margin: 0px 40px 52px 40px;
+}
+
+.btn__geo__card {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #3888ff;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 112px;
+}
+
+.zoogeography__map {
+  background: url(./assets/images/world.jpg) no-repeat;
+  display: flex;
+}
+
+.map__eagle {
+  margin-top: 153px;
+  margin-left: 108px;
+}
+.map__alligator {
+  margin-top: 205px;
+  margin-left: 5px;
+}
+.map__gorilla {
+  margin-top: 332px;
+  margin-left: 205px;
+}
+.map__panda {
+  margin-top: 193px;
+  margin-left: 205px;
+}
+
+.map__item {
+  transition: 0.3s;
+}
+
+.map__item:hover {
+  transform: scale(1.4);
+  transition: 0.4s;
+}
+
+.picker__border__main {
+  stroke: #609fff;
+  stroke-width: 2px;
+}
+
+.picker__border:hover {
+  stroke: #609fff;
+  stroke-width: 2px;
+}
+
+/* end Zoogeography*/
+
+/* start FOOTER*/
+.footer {
+  background: #0b0b0b;
+  padding-top: 100px;
+  padding-bottom: 59px;
+}
+
+.footer__container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-left: 184px;
+}
+
+.footer__block {
+  height: 607px;
+  display: grid;
+  grid-template-rows: 534px 73px;
+}
+
+.footer__start {
+  display: grid;
+  grid-template-columns: 304px 200px 442px;
+  gap: 249px;
+}
+
+.rs__logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 192px;
+}
+
+.footer__nav__title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #fcfcfc;
+  margin: 0;
+}
+
+.footer__list {
+  padding: 0;
+  margin: 40px 0px 0px 0px;
+}
+
+.footer__item {
+  list-style-type: none;
+  margin-top: 30px;
+}
+.footer__link {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  color: #bcbcbc;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: #fcfcfc;
+}
+
+.support {
+  margin-left: 103px;
+}
+
+.support__title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #fcfcfc;
+  margin: 0;
+}
+
+.support__text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  color: #bcbcbc;
+  margin: 46px 0px 60px 0px;
+}
+
+.btn__donate {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #fcfcfc;
+  padding: 18px 73px;
+  border-radius: 5px;
+  border: #fcfcfc 2px solid;
+  text-decoration: none;
+  background: #0f0049;
+}
+
+.btn__donate:hover {
+  background: #080029;
+}
+
+.btn__donate:active {
+  background: #150068;
+}
+
+.footer__social__nav {
+  margin-top: 105px;
+}
+
+.footer__social__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__social__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #bcbcbc;
+  text-decoration: none;
+}
+
+.footer__social__item {
+  list-style-type: none;
+}
+
+.footer__social__link:hover {
+  color: #fcfcfc;
+}
+
+.hr {
+  border: 1px solid #747474;
+  margin: 0;
+}
+
+.footer__end {
+  padding-right: 184px;
+}
+
+.footer__end__text {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #bcbcbc;
+}
+
+.end__text {
+  margin: 0;
+}
+
+/* end FOOTER*/
+
+/* start POPUP*/
+
+.popup {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  overflow: auto;
+  visibility: hidden;
+}
+
+.popup__body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.popup__content {
+  background-color: #fcfcfc;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  max-width: 479px;
+  max-height: 598px;
+  padding: 30px 40px 63px 40px;
+  z-index: 2;
+}
+.popup__title {
+  font-family: "Merriweather", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 145%;
+  color: #000000;
+  padding-bottom: 6px;
+}
+.popup__heading {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #7b7b7b;
+  padding-top: 34px;
+  padding-bottom: 6px;
+}
+.popup__form {
+
+}
+
+.popup__area {
+  width: 399px;
+  height: 100px;
+  border: 2px solid #D3D3D3;
+  margin-bottom: 63px;
+}
+.popup__btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  padding: 22px 110px;
+  background: #d3d3d3;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.popup__btn:hover {
+  background: #171717;
+}
+
+.popup__btn:active {
+  background: #171717;
+}
+
+/* end POPUP*/
+
+@media screen and (max-width: 1919px) {
+  /* start SIDE BAR*/
+  .aside__main {
+    position: relative;
+  }
+  .aside__container {
+    max-width: 1120px;
+  }
+
+  .side__bar {
+    width: 70px;
+    height: 586px;
+  }
+
+  .side__logo {
+    margin-left: 11px;
+    margin-top: 18px;
+  }
+
+  .side__logo__pic {
+    width: 41px;
+    height: 32px;
+  }
+
+  .side__bar__nav {
+    margin-top: 215px;
+    height: 268px;
+    grid-template-columns: 70px;
+    grid-template-rows: 166px 48px;
+    gap: 48px;
+  }
+
+  .side__list {
+    height: 166px;
+    grid-template-rows: 62px 61px 28px;
+  }
+
+  .sosial {
+    width: 16.5px;
+    height: 17.4px;
+  }
+
+  .go {
+    width: 42px;
+    height: 42px;
+  }
+
+  /* end SIDE BAR*/
+
+  /* start HEADER*/
+  .header {
+    max-width: 1120px;
+  }
+
+  .header__block {
+    height: 70px;
+    flex-wrap: nowrap;
+  }
+
+  .general__logo {
+    margin-left: 11px;
+    margin-top: 7px;
+  }
+
+  .general__logo__pic {
+    width: 41px;
+    height: 32px;
+  }
+
+  .header__list {
+    width: 680px;
+    margin-left: 90px;
+    padding-left: 0px;
+  }
+
+  .head__profile {
+    margin-left: 182px;
+    margin-right: 72px;
+  }
+
+  .profile {
+    width: 42px;
+    height: 42px;
+  }
+
+  /* end HEADER*/
+
+  /* start Watch your favorite animal online*/
+  .watch__animal__online {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+
+  .watch__animal__container {
+    max-width: 1120px;
+    padding-left: 144px;
+  }
+
+  .watch__animal__block {
+    grid-template-rows: 456px;
+    grid-template-columns: 497px 400px;
+    gap: 79px;
+  }
+
+  .watch__animal__subtitle {
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .watch__animal__title {
+    font-size: 56px;
+    line-height: 70px;
+    margin: 0px 0px 66px 0px;
+  }
+
+  .letter__block {
+    margin: 0px -12px 0px -12px;
+  }
+
+  .dot {
+    margin-top: -106.5px;
+    margin-left: 1.5px;
+  }
+
+  .btn__choose {
+    padding: 16px 60px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .btn__watch {
+    padding: 14px 58px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 40px;
+  }
+
+  .watch__online__illustration {
+    background-size: contain;
+    width: 400px;
+    height: 456px;
+  }
+  /* end Watch your favorite animal online*/
+
+  /* start How zoo online works*/
+  .how__works {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .how__works__container {
+    max-width: 1120px;
+    padding-left: 144px;
+  }
+
+  .how__works__block {
+    grid-template-rows: 585px;
+    grid-template-columns: 401px 551px;
+    gap: 30px;
+  }
+
+  .how__zoo__illustration {
+    width: 401px;
+    height: 585px;
+    background-size: cover;
+  }
+
+  .how__zoo__text {
+    margin-top: 57px;
+  }
+
+  .how__zoo__main__text {
+    font-size: 28px;
+    margin: 45px 0px 35px 0px;
+  }
+
+  .how__zoo__secondary__text {
+    font-size: 16px;
+    margin: 0px 0px 70px 0px;
+  }
+
+  .btn__try {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  /* end How zoo online works*/
+
+  /* start Famous pets*/
+  .famous__pets {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .famous__pets__container {
+    max-width: 1120px;
+    padding-left: 144px;
+  }
+
+  .famous__pets__block {
+    grid-template-rows: 546px;
+    grid-template-columns: 215px 546px;
+    gap: 72px;
+  }
+
+  .famous__title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 125px;
+  }
+
+  .famous__text {
+    font-size: 28px;
+    line-height: 145%;
+    width: 215px;
+    margin: 50px 0px 51px 0px;
+  }
+
+  .famous__block__card {
+    max-width: 1409px;
+    grid-template-rows: repeat(1, 546px);
+    grid-template-columns: repeat(4, 258px);
+    gap: 30px;
+  }
+
+  .element {
+    display: grid;
+    grid-template-rows: repeat(2, 258px);
+    gap: 30px;
+  }
+
+  .famous__item__container {
+    position: relative;
+    top: 132px;
+    z-index: 2;
+  }
+
+  .famous__card__circle {
+    width: 59px;
+    height: 59px;
+    border: 1.5px solid #fcfcfc;
+    margin-bottom: 32px;
+  }
+
+  .famous__card__plus {
+    font-size: 35px;
+  }
+
+  .famous__card__description {
+    max-width: 146px;
+    font-size: 16px;
+  }
+
+  .famous__card__link {
+    margin-top: -20px;
+  }
+
+  .blok__item:hover .famous__card__circle {
+    width: 184px;
+    height: 184px;
+    margin-top: -108px;
+    border: 1.5px solid rgba(252, 252, 252, 0.3);
+  }
+
+  .famous__vector__img {
+    width: 24px;
+  }
+
+  .famous__vector {
+    width: 56px;
+    height: 56px;
+    padding: 20px 15px 20px 15px;
+  }
+
+  .blok__item {
+    background-size: contain;
+  }
+
+  /* end Famous pets*/
+
+  /* start Pay and feed*/
+  .pay__feed {
+    padding-bottom: 128px;
+  }
+
+  .pay__feed__container {
+    max-width: 1120px;
+    padding-left: 144px;
+  }
+
+  .pay__main__title {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+  }
+
+  .pay__title {
+    font-size: 28px;
+  }
+
+  .pay__text {
+    font-size: 16px;
+  }
+
+  .pay__img__one {
+    width: 215px;
+    height: 165px;
+  }
+
+  .pay__img__two {
+    width: 242px;
+    height: 242px;
+  }
+
+  .pay__img__three {
+    width: 242px;
+    height: 242px;
+  }
+
+  .illustration__one {
+    margin-top: 120px;
+    margin-left: 157px;
+  }
+
+  .first__block {
+    width: 428px;
+    margin-top: 133px;
+    margin-left: 58px;
+  }
+
+  .first__title {
+    margin-bottom: 20px;
+  }
+
+  .illustration__first__vector {
+    display: none;
+  }
+
+  .illustration__second__vector {
+    display: none;
+  }
+
+  .illustration__two {
+    margin-top: 112px;
+    margin-left: 144px;
+  }
+
+  .second__block {
+    width: 456px;
+    margin-top: 175px;
+    margin-left: 45px;
+  }
+
+  .second__title {
+    margin-bottom: 20px;
+  }
+
+  .illustration__three {
+    margin-top: 97px;
+    margin-left: 144px;
+  }
+
+  .third__block {
+    width: 456px;
+    margin-top: 127px;
+    margin-left: 45px;
+  }
+
+  .third__title {
+    width: 287px;
+    margin-bottom: 20px;
+  }
+  /* end Pay and feed*/
+
+  /* start Testimonials*/
+  .testimonials {
+    padding-top: 108px;
+    padding-bottom: 80px;
+  }
+
+  .testimonials__container {
+    max-width: 1120px;
+    padding-left: 144px;
+  }
+
+  .testimonials__block {
+    height: 368px;
+    grid-template-rows: 368px;
+    grid-template-columns: 392px 454px;
+    gap: 39px;
+  }
+
+  .test__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .test__subtitle {
+    font-size: 28px;
+    margin: 40px 0px 40px 0px;
+  }
+
+  .test__text {
+    font-size: 16px;
+    color: #d3d3d3;
+    margin: 0px 0px 82px 0px;
+  }
+
+  .btn__more {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .text__review {
+    font-size: 16px;
+    margin: 0px 30px 59px 30px;
+  }
+
+  .name__review {
+    font-size: 18px;
+    line-height: 21px;
+    margin: 42px 222px 38px 0px;
+  }
+
+  .review {
+    display: grid;
+    grid-template-rows: 235px;
+    grid-template-columns: 454px;
+    gap: 40px;
+    margin: 22px 0px 30px 0px;
+  }
+
+  .review__block:last-child {
+    display: none;
+  }
+
+  .ava {
+    margin: 30px 20px 25px 30px;
+  }
+
+  .see__more__btn {
+    margin-top: 52px;
+  }
+  .see__more__btn__img {
+    width: 24px;
+  }
+  .see__more__left,
+  .see__more__right {
+    width: 56px;
+    height: 56px;
+    padding: 20px 15px 20px 15px;
+  }
+
+  /* end Testimonials*/
+
+  /* start Zoogeography*/
+  .zoogeography {
+    padding-top: 100px;
+    padding-bottom: 99px;
+  }
+
+  .zoogeography__container {
+    max-width: 1120px;
+    padding-left: 144px;
+  }
+
+  .zoogeography__block {
+    height: 532px;
+    display: grid;
+    grid-template-columns: 292px 675px;
+    gap: 9px;
+  }
+
+  .geo__card {
+    width: 292px;
+    height: 448px;
+    margin: 0px;
+  }
+
+  .geo__title {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px 0px 60px 0px;
+  }
+
+  .geo__card__img {
+    height: 194px;
+  }
+
+  .geo__card__title {
+    font-size: 28px;
+    margin: 15px 0px 15px 0px;
+  }
+
+  .geo__card__text {
+    font-size: 16px;
+    margin: 0px 14px 46px 14px;
+  }
+
+  .btn__geo__card {
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 93px;
+  }
+
+  .zoogeography__map {
+    margin-top: 20px;
+    background: url(./assets/images/world.jpg) 100% no-repeat;
+    background-size: contain;
+  }
+
+  .main__marker {
+    height: 80px;
+  }
+
+  .map__item {
+    width: 60px;
+    height: 80px;
+  }
+
+  .map__eagle {
+    margin-top: 157px;
+    margin-left: 51px;
+  }
+  .map__alligator {
+    margin-top: 177px;
+    margin-left: -14px;
+  }
+  .map__gorilla {
+    margin-top: 227px;
+    margin-left: 100px;
+  }
+  .map__panda {
+    margin-top: 165px;
+    margin-left: 125px;
+  }
+  /* end Zoogeography*/
+
+  /* start FOOTER*/
+  .footer {
+    padding-bottom: 40px;
+  }
+
+  .footer__container {
+    max-width: 1120px;
+    padding: 0px;
+  }
+
+  .footer__block {
+    height: 580px;
+    display: grid;
+    grid-template-rows: 517px 63px;
+  }
+
+  .footer__start {
+    display: grid;
+    grid-template-columns: 128px 133px 475px;
+    gap: 160px;
+  }
+
+  .footer__logo__pic {
+    width: 119px;
+    height: 91px;
+  }
+  .rs__logo {
+    width: 128px;
+    height: 176px;
+    display: grid;
+    grid-row: 62px 19px 47px;
+    gap: 24px;
+    margin-top: 103px;
+  }
+
+  .x {
+    margin-left: 59px;
+  }
+
+  .support {
+    margin-left: 136px;
+  }
+
+  .support__text {
+    margin: 46px 0px 60px 0px;
+  }
+
+  .footer__social__nav {
+    margin-top: 113px;
+  }
+
+  .footer__social__link {
+    line-height: 26px;
+  }
+
+  .hr {
+    border: 1px solid #747474;
+    background-color: #747474;
+    margin: 0;
+  }
+
+  .footer__end {
+    padding-right: 0px;
+  }
+
+  .footer__end__text {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* start SIDE BAR*/
+  .aside__main {
+    position: relative;
+  }
+  .aside__height {
+    display: none;
+  }
+  /* end SIDE BAR*/
+
+  /* start HEADER*/
+  .header {
+    max-width: 640px;
+    padding-top: 0px;
+  }
+
+  .header__block {
+    height: 88px;
+  }
+
+  .general__logo {
+    margin-left: 17px;
+    margin-top: 5px;
+  }
+
+  .general__logo__pic {
+    width: 49px;
+    height: 38px;
+  }
+
+  .header__nav,
+  .head__profile {
+    display: none;
+  }
+
+  .burger__menu {
+    display: contents;
+  }
+
+  .burger {
+    margin-right: 20px;
+  }
+
+  /* end HEADER*/
+
+  /* start Watch your favorite animal online*/
+  .watch__animal__online {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .watch__animal__container {
+    max-width: 640px;
+    padding-left: 20px;
+  }
+
+  .watch__animal__block {
+    grid-template-rows: 326px;
+    grid-template-columns: 316px 263px;
+    gap: 22px;
+  }
+
+  .watch__animal__subtitle {
+    margin-top: 8px;
+    margin-bottom: 35px;
+  }
+
+  .watch__animal__title {
+    font-size: 42px;
+    line-height: 53px;
+    margin: 0px 0px 56px 0px;
+  }
+
+  .letter__block {
+    margin: 0px -10px 0px -10px;
+  }
+
+  .dot {
+    margin-top: -80.5px;
+    margin-left: 1.3px;
+  }
+
+  .btn__watch {
+    display: none;
+  }
+
+  .watch__online__illustration {
+    width: 263px;
+    height: 326px;
+  }
+  /* end Watch your favorite animal online*/
+
+  /* start How zoo online works*/
+  .how__works {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .how__works__container {
+    max-width: 640px;
+    padding-left: 0px;
+  }
+
+  .how__works__block {
+    grid-template-rows: 389px 386px;
+    grid-template-columns: none;
+    gap: 60px;
+  }
+
+  .how__zoo__illustration {
+    max-width: 390px;
+    height: 386px;
+    margin: 0 auto;
+    order: 1;
+  }
+
+  .how__zoo__title {
+    text-align: center;
+  }
+
+  .how__zoo__text {
+    margin-top: 0px;
+  }
+
+  .how__zoo__main__text {
+    width: 550px;
+    font-size: 26px;
+    text-align: center;
+    margin: 45px 0px 30px 45px;
+  }
+
+  .how__zoo__secondary__text {
+    width: 550px;
+    text-align: center;
+    margin: 0px 0px 60px 45px;
+  }
+
+  .how__zoo__link {
+    text-align: center;
+  }
+
+  .btn__try {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 80px;
+  }
+  /* end How zoo online works*/
+
+  /* start Famous pets*/
+  .famous__pets {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .famous__pets__container {
+    max-width: 640px;
+    padding-left: 0px;
+  }
+
+  .famous__pets__block {
+    grid-template-rows: 255px 390px;
+    grid-template-columns: 640px;
+    gap: 70px;
+  }
+
+  .famous__title {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  .famous__text {
+    font-size: 24px;
+    width: 189px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .vectors {
+    text-align: center;
+  }
+
+  .famous__block__card {
+    max-width: 1020px;
+    grid-template-rows: repeat(1, 390px);
+    grid-template-columns: repeat(4, 180px);
+    gap: 30px;
+    margin-left: 20px;
+  }
+
+  .element {
+    display: grid;
+    grid-template-rows: repeat(2, 180px);
+    gap: 30px;
+  }
+
+  .famous__item__container {
+    position: relative;
+    top: 92px;
+    z-index: 2;
+  }
+
+  .famous__card__circle {
+    width: 41px;
+    height: 41px;
+    border: 1.5px solid #fcfcfc;
+    margin-bottom: 18px;
+  }
+
+  .famous__card__plus {
+    font-size: 24px;
+  }
+
+  .famous__card__title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .famous__card__description {
+    max-width: 129px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .famous__card__link {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: -10px;
+  }
+
+  .blok__item:hover .famous__card__circle {
+    width: 129px;
+    height: 129px;
+    margin-top: -73px;
+    border: 1.5px solid rgba(252, 252, 252, 0.3);
+  }
+  /* end Famous pets*/
+
+  /* start Pay and feed*/
+  .pay__feed {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .pay__feed__container {
+    max-width: 640px;
+    padding-left: 0px;
+  }
+
+  .pay__block {
+    flex-wrap: wrap;
+  }
+
+  .pay__main__title {
+    text-align: center;
+    margin: 0;
+  }
+
+  .pay__title {
+    font-size: 24px;
+  }
+
+  .pay__text {
+    font-size: 18px;
+  }
+
+  .pay__img__one {
+    width: 160px;
+    height: 123px;
+  }
+
+  .pay__img__two {
+    width: 180px;
+    height: 181px;
+  }
+
+  .pay__img__three {
+    width: 242px;
+    height: 242px;
+  }
+
+  .illustration__one {
+    margin-top: 90px;
+    margin-left: 240px;
+  }
+
+  .first__block {
+    width: 428px;
+    margin-top: 54px;
+    margin-left: 106px;
+    text-align: center;
+  }
+
+  .first__title {
+    margin-bottom: 25px;
+  }
+
+  .illustration__first__vector {
+    display: none;
+  }
+
+  .illustration__second__vector {
+    display: none;
+  }
+
+  .illustration__two {
+    margin-top: 60px;
+    margin-left: 230px;
+  }
+
+  .second__block {
+    text-align: center;
+    width: 456px;
+    margin-top: 30px;
+    margin-left: 92px;
+  }
+
+  .second__title {
+    margin-bottom: 25px;
+  }
+
+  .illustration__three {
+    margin-top: 60px;
+    margin-left: 199px;
+  }
+
+  .third__block {
+    text-align: center;
+    width: 456px;
+    margin-top: 30px;
+    margin-left: 92px;
+  }
+
+  .third__title {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 25px;
+    margin-left: 78px;
+  }
+  /* end Pay and feed*/
+
+  /* start Testimonials*/
+  .testimonials {
+    padding-top: 80px;
+    padding-bottom: 103px;
+  }
+
+  .testimonials__container {
+    max-width: 640px;
+    padding-left: 0px;
+  }
+
+  .testimonials__block {
+    height: 796px;
+    grid-template-rows: 346px 370px;
+    grid-template-columns: none;
+    gap: 80px;
+  }
+
+  .test__block {
+    margin: 0 auto;
+    width: 392px;
+  }
+  .test__title {
+    text-align: center;
+  }
+
+  .test__subtitle {
+    text-align: center;
+    font-size: 28px;
+    margin: 35px 0px 35px 0px;
+  }
+
+  .test__text {
+    text-align: center;
+    margin: 0px 0px 70px 0px;
+  }
+
+  .feedback {
+    text-align: center;
+  }
+
+  .see__more {
+    margin: 0 auto;
+  }
+  .btn__see__more {
+    text-align: center;
+  }
+  .review {
+    display: grid;
+    grid-template-rows: 235px;
+    grid-template-columns: 454px;
+    gap: 40px;
+    margin: 30px 0px 30px 0px;
+  }
+
+  .see__more__btn {
+    text-align: center;
+    margin-top: 52px;
+  }
+  /* end Testimonials*/
+
+  /* start Zoogeography*/
+  .zoogeography {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .zoogeography__container {
+    max-width: 640px;
+    padding-left: 0px;
+  }
+
+  .zoogeography__block {
+    height: 666px;
+    display: grid;
+    grid-template-rows: 390px 346px;
+    grid-template-columns: none;
+    gap: 0px;
+  }
+
+  .zoogeography__card {
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+  }
+
+  .geo__card {
+    width: 250px;
+    height: 390px;
+    margin: 0px;
+  }
+
+  .geo__title {
+    display: none;
+  }
+
+  .geo__card__img {
+    height: 160px;
+  }
+
+  .geo__card__title {
+    font-size: 24px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .geo__card__text {
+    font-size: 14px;
+    margin: 0px 19px 40px 19px;
+  }
+
+  .btn__geo__card {
+    margin-left: 70px;
+  }
+
+  .zoogeography__map {
+    position: relative;
+    margin-top: -70px;
+    background: url(./assets/images/world.jpg) no-repeat;
+    background-size: contain;
+  }
+
+  .map__item {
+    width: 60px;
+    height: 80px;
+  }
+
+  .map__eagle {
+    margin-top: 73px;
+    margin-left: 60px;
+  }
+  .map__alligator {
+    margin-top: 94px;
+    margin-left: -15px;
+  }
+  .map__gorilla {
+    margin-top: 143px;
+    margin-left: 76px;
+  }
+  .map__panda {
+    margin-top: 92px;
+    margin-left: 112px;
+  }
+  /* end Zoogeography*/
+
+  /* start FOOTER*/
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+
+  .footer__container {
+    max-width: 640px;
+    padding: 0px;
+  }
+
+  .footer__block {
+    margin-left: 20px;
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-rows: 559px 41px;
+  }
+
+  .footer__start {
+    display: grid;
+    grid-template-areas:
+      "a a"
+      "b c";
+    grid-template-rows: 74px 366px;
+    grid-template-columns: 133px 349px;
+    gap: 60px;
+  }
+
+  .logos {
+    height: 74px;
+    display: flex;
+    align-items: flex-end;
+    grid-area: a;
+  }
+
+  .footer__logo__pic {
+    width: 95px;
+    height: 74px;
+  }
+
+  .rs__logo {
+    height: 49px;
+    width: 264px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 117px;
+  }
+
+  .yem {
+    height: 49px;
+  }
+
+  .x {
+    margin-left: 0px;
+    align-items: center;
+  }
+  .rs {
+    height: 38px;
+  }
+
+  .footer__nav {
+    grid-area: b;
+  }
+
+  .footer__link {
+    font-size: 16px;
+    line-height: 154%;
+  }
+
+  .support {
+    grid-area: c;
+    margin-left: 17px;
+  }
+
+  .support__text {
+    font-size: 16px;
+    line-height: 154%;
+    margin: 30px 0px 60px 0px;
+  }
+
+  .btn__donate {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 18px 73px;
+  }
+
+  .footer__social__nav {
+    margin-top: 70px;
+  }
+
+  .footer__social__link {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .hr {
+    border: 1px solid #747474;
+    background-color: #747474;
+    margin: 0;
+  }
+
+  .footer__end {
+    padding-right: 0px;
+  }
+
+  .footer__end__text {
+    font-size: 14px;
+    line-height: 145%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  /* start HEADER*/
+  .header {
+    max-width: 320px;
+    padding-top: 0px;
+  }
+
+  .header__block {
+    height: 59px;
+  }
+
+  .general__logo {
+    margin-left: 8px;
+    margin-top: 4px;
+  }
+
+  .general__logo__pic {
+    width: 38px;
+    height: 29px;
+  }
+
+  .burger {
+    margin-right: 10px;
+  }
+  .burger__img {
+    width: 35px;
+    height: 21px;
+  }
+  /* end HEADER*/
+
+  /* start Watch your favorite animal online*/
+  .watch__animal__online {
+    padding-top: 69px;
+    padding-bottom: 62px;
+  }
+
+  .watch__animal__container {
+    max-width: 320px;
+    padding-left: 0px;
+  }
+
+  .watch__animal__block {
+    grid-template-rows: 309px;
+    grid-template-columns: 320px;
+    gap: 0px;
+  }
+
+  .watch__animal__subtitle {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .watch__animal__title {
+    text-align: center;
+  }
+
+  .watch__animal__btn {
+    text-align: center;
+  }
+
+  .btn__choose {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .watch__online__illustration {
+    display: none;
+  }
+  /* end Watch your favorite animal online*/
+
+  /* start How zoo online works*/
+  .how__works {
+    padding-top: 0px;
+    padding-bottom: 58px;
+  }
+
+  .how__works__container {
+    max-width: 320px;
+  }
+
+  .how__works__block {
+    grid-template-rows: 293px 406px;
+    grid-template-columns: 320px;
+  }
+
+  .how__zoo__illustration {
+    max-width: 297px;
+    height: 293px;
+    margin: 0 auto;
+    order: 0;
+  }
+
+  .how__zoo__title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .how__zoo__text {
+    margin-top: 0px;
+  }
+
+  .how__zoo__main__text {
+    font-size: 20px;
+    width: 294px;
+    margin: 32px 0px 30px 13px;
+  }
+
+  .how__zoo__secondary__text {
+    font-size: 14px;
+    width: 300px;
+    margin: 0px 0px 60px 10px;
+  }
+
+  .btn__try {
+    margin-bottom: 0px;
+  }
+  /* end How zoo online works*/
+
+  /* start Famous pets*/
+  .famous__pets {
+    padding-bottom: 60px;
+  }
+
+  .famous__pets__container {
+    max-width: 320px;
+  }
+
+  .famous__pets__block {
+    grid-template-rows: 222px 300px;
+    grid-template-columns: 320px;
+    gap: 50px;
+  }
+
+  .famous__title {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 30px;
+  }
+
+  .famous__text {
+    font-size: 20px;
+    width: 189px;
+    margin-bottom: 58px;
+  }
+
+  .famous__block__card {
+    max-width: 780px;
+    grid-template-rows: repeat(1, 300px);
+    grid-template-columns: repeat(4, 140px);
+    gap: 20px;
+    margin-left: 10px;
+  }
+
+  .element {
+    display: grid;
+    grid-template-rows: repeat(2, 140px);
+    gap: 20px;
+  }
+
+  .famous__item__container {
+    position: relative;
+    top: 72px;
+    z-index: 2;
+  }
+
+  .famous__card__circle {
+    width: 31px;
+    height: 31px;
+    margin-bottom: 16px;
+  }
+
+  .famous__card__plus {
+    font-size: 18px;
+  }
+
+  .famous__card__title {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .famous__card__description {
+    max-width: 79px;
+    font-size: 12px;
+  }
+
+  .famous__card__link {
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: -10px;
+  }
+
+  .blok__item:hover .famous__card__circle {
+    width: 100px;
+    height: 100px;
+    margin-top: -60px;
+  }
+  /* end Famous pets*/
+
+  /* start Pay and feed*/
+  .pay__feed {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .pay__feed__container {
+    max-width: 320px;
+  }
+
+  .pay__block {
+    flex-wrap: wrap;
+  }
+
+  .pay__main__title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .pay__title {
+    font-size: 20px;
+  }
+
+  .pay__text {
+    font-size: 14px;
+  }
+
+  .pay__img__one {
+    width: 160px;
+    height: 123px;
+  }
+
+  .pay__img__two {
+    width: 180px;
+    height: 181px;
+  }
+
+  .pay__img__three {
+    width: 242px;
+    height: 242px;
+  }
+
+  .illustration__one {
+    margin-top: 60px;
+    margin-left: 81px;
+  }
+
+  .first__block {
+    width: 280px;
+    margin-top: 54px;
+    margin-left: 20px;
+  }
+
+  .first__title {
+    margin-bottom: 20px;
+  }
+
+  .illustration__two {
+    margin-top: 28px;
+    margin-left: 69px;
+  }
+
+  .second__block {
+    width: 260px;
+    margin-top: 29px;
+    margin-left: 29px;
+  }
+
+  .second__title {
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+
+  .illustration__three {
+    margin-top: 41px;
+    margin-left: 40px;
+  }
+
+  .third__block {
+    width: 300px;
+    margin-top: 14px;
+    margin-left: 10px;
+  }
+
+  .third__title {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+  /* end Pay and feed*/
+
+  /* start Testimonials*/
+  .testimonials {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .testimonials__container {
+    max-width: 320px;
+  }
+
+  .testimonials__block {
+    height: 780px;
+    grid-template-rows: 305px 425px;
+    grid-template-columns: 320px;
+    gap: 50px;
+  }
+
+  .test__block {
+    width: 300px;
+  }
+
+  .test__title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .test__subtitle {
+    font-size: 20px;
+    margin: 30px 0px 20px 0px;
+  }
+
+  .test__text {
+    font-size: 14px;
+    margin: 0px 0px 60px 0px;
+  }
+
+  .btn__feedback {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .see__more {
+    width: 320px;
+  }
+
+  .btn__more {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .review {
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 300px;
+    gap: 40px;
+    margin: 20px 10px 30px 10px;
+  }
+
+  .ava {
+    margin: 30px 20px 20px 30px;
+  }
+
+  .name__review {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 42px 83px 35px 0px;
+  }
+
+  .text__review {
+    font-size: 18px;
+    margin: 0px 30px 36px 30px;
+  }
+
+  .see__more__btn {
+    text-align: center;
+    margin-top: 52px;
+  }
+  /* end Testimonials*/
+
+  /* start Zoogeography*/
+  .zoogeography {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .zoogeography__container {
+    max-width: 320px;
+    padding-left: 0px;
+  }
+
+  .zoogeography__block {
+    height: 464px;
+    display: grid;
+    grid-template-rows: 374px 50px;
+    grid-template-columns: none;
+    gap: 40px;
+  }
+
+  .zoogeography__card {
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+  }
+
+  .geo__card {
+    height: 374px;
+    margin: 0 auto;
+  }
+
+  .geo__card__img {
+    height: 160px;
+  }
+
+  .geo__card__title {
+    font-size: 20px;
+    margin: 20px 0px 15px 0px;
+  }
+
+  .geo__card__text {
+    margin: 0px 19px 35px 19px;
+  }
+
+  .zoogeography__map {
+    display: none;
+  }
+
+  .side__hidden {
+    display: contents;
+  }
+
+  .side__hidden__nav {
+    max-width: 300px;
+    height: 50px;
+    margin: 40px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .side__hidden__main {
+    margin: 0px 10px 0px 10px;
+  }
+
+  .side__hidden__go {
+    display: flex;
+    align-items: center;
+  }
+
+  .hidden__go {
+    width: 19px;
+    height: 18px;
+  }
+
+  .side__hidden__list {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+
+  .side__hidden__item {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #d9e8ff;
+    border-radius: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .side__hidden__item:hover {
+    border: 2px solid #609fff;
+  }
+
+  .item__eagle {
+    border: 2px solid #609fff;
+  }
+
+  /* end Zoogeography*/
+
+  /* start FOOTER*/
+  .footer {
+    padding-top: 60px;
+  }
+
+  .footer__container {
+    max-width: 320px;
+  }
+
+  .footer__block {
+    margin-left: 10px;
+    height: 697px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 636px 61px;
+  }
+
+  .footer__start {
+    display: grid;
+    grid-template-areas:
+      "a b"
+      "c c";
+    grid-template-rows: 283px 258px;
+    grid-template-columns: 84px 156px;
+    gap: 60px;
+  }
+
+  .logos {
+    height: 283px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    grid-area: a;
+  }
+
+  .footer__logo__pic {
+    width: 60px;
+    height: 47px;
+  }
+
+  .rs__logo {
+    height: 132px;
+    width: 84px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 98px;
+    margin-left: 0px;
+  }
+
+  .yem {
+    height: 42px;
+    order: 2;
+  }
+
+  .x {
+    margin: 0 auto;
+    order: 1;
+  }
+  .rs {
+    height: 31px;
+  }
+
+  .footer__nav {
+    grid-area: b;
+    margin-left: 16px;
+  }
+
+  .footer__nav__title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .footer__item {
+    margin-top: 21px;
+  }
+
+  .footer__list {
+    margin-top: 25px;
+  }
+
+  .footer__link {
+    font-size: 14px;
+  }
+
+  .support {
+    grid-area: c;
+    margin-left: 0px;
+  }
+
+  .support__title {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .support__text {
+    text-align: center;
+    font-size: 14px;
+    margin: 30px 0px 50px 0px;
+  }
+
+  .btn__donate {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 18px 73px;
+  }
+
+  .footer__social__nav {
+    margin-top: 53px;
+  }
+
+  .footer__social__link {
+    font-size: 14px;
+    line-height: 27px;
+  }
+
+  .hr {
+    border: 1px solid #747474;
+    background-color: #747474;
+    margin: 0;
+  }
+
+  .footer__end__text {
+    flex-wrap: wrap;
+    font-size: 11px;
+    margin-top: 20px;
+  }
+
+  .end__text:first-child {
+    order: 1;
+    margin-top: 8px;
+  }
+}
